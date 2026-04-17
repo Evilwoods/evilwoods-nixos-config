@@ -3,10 +3,10 @@
   flake.modules.nixos.serviceNtfy =
     { config, ... }:
     let
-      inherit (config.evilwoods.constants) domain;
+      inherit (config.evilwoods.constants) evilwoodsDomain;
 
       appName = "ntfy";
-      appURL = "${appName}.${domain}";
+      appURL = "${appName}.${evilwoodsDomain}";
 
       ntfyListenPort = ":8081";
     in

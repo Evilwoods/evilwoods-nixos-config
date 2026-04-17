@@ -23,12 +23,12 @@
 
           # services
           serviceFail2ban
-          serviceAdGuardHome
+          # serviceAdGuardHome
           # serviceForgejoRunner
           serviceNtfy
-          serviceTraefik
-          serviceSearx
-          serviceNiks3
+          # serviceTraefik
+          # serviceSearx
+          # serviceNiks3
 
           # users
           self.modules.nixos."userAitvaras@evilcloud"
