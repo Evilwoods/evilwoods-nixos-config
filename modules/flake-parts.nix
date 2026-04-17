@@ -30,7 +30,7 @@ let
     |> filter (
       hostName:
       !(builtins.elem hostName [
-        "hostEvilcloud"
+        # "hostEvilcloud"
         "hostNecronomicon"
       ])
     )
