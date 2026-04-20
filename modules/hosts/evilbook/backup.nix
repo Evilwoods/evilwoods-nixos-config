@@ -22,7 +22,7 @@
       services.restic.backups.${serviceName} = {
         inherit user repository passwordFile;
         initialize = false;
-        inhibitsSleep = true;
+        inhibitsSleep = false;
         paths = [
           userHome
         ];
