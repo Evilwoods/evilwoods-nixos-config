@@ -16,7 +16,7 @@
           };
         };
         incus = {
-          enable = true;
+          enable = false;
         };
 
         vmVariant = {
