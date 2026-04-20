@@ -110,8 +110,6 @@
         hashedPassword = "!";
       };
 
-      programs.fish.enable = true;
-
       boot = {
         loader = {
           efi = {
